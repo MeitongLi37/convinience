@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="25"
+        android:background="#4CAF50">
+
+        <EditText
+            android:id="@+id/editTextPound"
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="pound"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextKg"
+            android:layout_width="169dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="93dp"
+            android:ems="10"
+            android:hint="kg"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonConvertPound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:text="convert"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="25"
+        android:background="#FFC107">
+
+        <EditText
+            android:id="@+id/editTextOunce"
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="ounce"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextGram"
+            android:layout_width="169dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="93dp"
+            android:ems="10"
+            android:hint="gram"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonConvertOunce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:text="convert"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="25"
+        android:background="#4CAF50">
+
+        <EditText
+            android:id="@+id/editTextGallon"
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="gallon"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextLiter"
+            android:layout_width="169dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="93dp"
+            android:ems="10"
+            android:hint="liter"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonConvertGallon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:text="convert"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="25"
+        android:background="#FFC107">
+
+        <EditText
+            android:id="@+id/editTextOz"
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="oz"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextMl"
+            android:layout_width="169dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="93dp"
+            android:ems="10"
+            android:hint="ml"
+            android:inputType="number|numberDecimal"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonConvertOz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:text="convert"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</LinearLayout>
